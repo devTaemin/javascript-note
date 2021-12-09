@@ -94,4 +94,5 @@ let ladder = {
     }
 }
 
+// return this가 없으면 각 함수는 undefined를 return하니까 오류가 발생한다.
 ladder.up().up().up().down().showStep();
